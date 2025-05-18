@@ -1,60 +1,85 @@
-# 📊 Informe Final - Análisis y Recomendación para Alura Store
+# 📊 Alura Store - Análisis de Tiendas para el Sr. Juan
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-brightgreen)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-orange)](https://matplotlib.org/)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-Ready-brightgreen)](https://colab.research.google.com/)
 
 ---
 
-## 🎯 Objetivo
+## 🎯 Propósito del Análisis
 
-Asesorar al **Sr. Juan** en la decisión estratégica sobre la **venta de una tienda** dentro de la cadena **Alura Store**, basándonos en un análisis detallado de desempeño que permita maximizar recursos y potenciar nuevos emprendimientos.
+Evaluar el desempeño de las cuatro tiendas del Sr. Juan mediante:
 
----
+* 💰 **Ingresos totales**
+* 🛒 **Ventas por categoría**
+* ⭐ **Calificaciones promedio**
+* 📦 **Productos más y menos vendidos**
+* 🚚 **Costo promedio de envío**
 
-## 🔍 Metodología
-
-Se realizó un análisis integral de las **cuatro tiendas** de la cadena, evaluando indicadores clave que incluyen:
-
-- 💰 **Ingresos totales**  
-- 🛍️ **Ventas por categoría y análisis de productos más/menos vendidos**  
-- ⭐ **Calificaciones promedio de clientes**  
-- 🚚 **Costo promedio de envío**
-
-El estudio se fundamenta en datos cuantitativos y visualizaciones, con el objetivo de identificar la tienda con menor rendimiento.
+Esto permite una decisión estratégica fundamentada en datos.
 
 ---
 
-## 📈 Resultados Clave
+## 📁 Estructura del Proyecto
 
-### Ingresos Totales
-- La **Tienda 1** encabeza con los mayores ingresos acumulados.  
-- La **Tienda 4** presenta una brecha significativa, con más de **\$112.500.000 menos** que la Tienda 1.  
-- Factores como antigüedad, ubicación y consolidación pueden influir en estas diferencias.
-
-### Ventas por Categoría y Productos
-- Categorías **"Muebles"** y **"Electrónicos"** dominan las ventas en la mayoría de tiendas.  
-- La Tienda 4, pese a su menor facturación, destaca en la categoría **"Juguetes"**.  
-- Los productos más vendidos suelen ser muebles y dispositivos electrónicos; los menos vendidos, libros e instrumentos musicales.
-
-### Calificaciones Promedio
-- Todas las tiendas mantienen calificaciones alrededor de **4/5**.  
-- La Tienda 1, con mayor volumen de ventas, registra la calificación más baja, posiblemente por retos en el servicio al cliente.  
-- La Tienda 4 mantiene calificaciones similares, aunque con menor actividad.
-
-### Costo Promedio de Envío
-- Existe una relación directa entre ventas y costos de envío.  
-- Tienda 1 presenta el costo más alto, Tienda 4 el más bajo, acorde con sus volúmenes de ventas.
+* **Carga y limpieza de datos**
+* **Análisis exploratorio y agrupación**
+* **Visualizaciones interactivas y estáticas**
+* **Conclusiones con recomendaciones**
 
 ---
 
-## 💡 Recomendación
+## 📊 Visualizaciones e Insights
 
-Se recomienda al Sr. Juan **vender la Tienda 4**, dado que:
+* **Ingresos Totales:** Gráfico de barras con Tienda 1 a la cabeza.
+* **Ventas por Categoría:** Barras agrupadas para comparación clara.
+* **Calificaciones Promedio:** Gráfico de dispersión mostrando similitudes.
+* **Top productos vendidos:** Visualización por tienda.
+* **Costo de Envío Promedio:** Gráficos circulares comparativos.
 
-- Es la que **menos ingresos genera**.  
-- Tiene **menor participación en ventas por categoría**.  
-- Presenta el **volumen de ventas y costos de envío más bajos**.  
-- Aunque sus calificaciones son similares a las demás, no destaca en ningún aspecto clave.
-
-Esta decisión permitirá concentrar recursos en tiendas con mayor potencial, optimizar la gestión y focalizar estrategias para maximizar la rentabilidad y satisfacción del cliente.
+> ✅ **Insight clave:** Tienda 4 tiene el desempeño más bajo, recomendándose para la venta.
 
 ---
-Desarrollado por: [Olfer Uribe]
-Curso: Formación en Data Science - Alura Latam
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+### Requisitos
+
+* Python 3.8 o superior
+* Paquetes: pandas, matplotlib, plotly (opcional)
+
+### Instalación rápida (recomendado en entorno virtual)
+
+```bash
+pip install pandas matplotlib plotly
+```
+
+### Uso en Google Colab
+
+1. Abre `AluraStoreLatam - analisis.ipynb` en [Google Colab](https://colab.research.google.com/).
+2. Asegúrate de tener acceso a los archivos CSV vía URL.
+3. Ejecuta las celdas en orden para cargar datos, procesar y visualizar resultados.
+
+---
+
+## 📌 Conclusión
+
+La **Tienda 4** es la candidata ideal para la venta debido a:
+
+* Bajos ingresos y ventas.
+* Menor diversidad en productos vendidos.
+* Costos de envío más bajos reflejando poca actividad.
+* Calificaciones similares, pero sin destacar.
+
+Este análisis aporta una base sólida y objetiva para decisiones estratégicas en Alura Store.
+
+---
+
+## 🔗 Recursos Útiles
+
+* [Python Oficial](https://www.python.org/)
+* [Pandas Documentation](https://pandas.pydata.org/docs/)
+* [Matplotlib Gallery](https://matplotlib.org/stable/gallery/index.html)
+* [Plotly Express](https://plotly.com/python/plotly-express/)
+* [Google Colab](https://colab.research.google.com/)
