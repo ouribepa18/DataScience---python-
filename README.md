@@ -56,3 +56,5 @@ Se recomienda al Sr. Juan **vender la Tienda 4**, dado que:
 Esta decisión permitirá concentrar recursos en tiendas con mayor potencial, optimizar la gestión y focalizar estrategias para maximizar la rentabilidad y satisfacción del cliente.
 
 ---
+Desarrollado por: [Olfer Uribe]
+Curso: Formación en Data Science - Alura Latam
